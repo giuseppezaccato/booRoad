@@ -1,0 +1,39 @@
+::placeholder {
+    color: #2b3035 !important;
+    opacity: 0.6 !important; /* Firefox */
+  }
+
+
+a,
+li {
+    text-decoration: none !important;
+    list-style: none;
+    text-decoration-style: none;
+}
+
+.accordion-button-no-blue {
+    color: inherit;
+}
+
+nav a img {
+    transition: transform 0.5s ease;
+}
+
+nav a img:hover {
+    transform: rotate(180deg);
+}
+
+/* serach bar */
+.search {
+    background-color: whitesmoke;
+    color: #2b3035;
+    border: none;
+    padding: 0.5rem 0.7rem;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #64bea4 !important;
+    border: 1px solid #64bea4 !important;
+}
